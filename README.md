@@ -11,7 +11,7 @@ FIFA Ultimate Team (FUT) is a popular game mode within the FIFA video game franc
 
 Business Problem
 
-![BUSINESS PICTURE]("./Images/2784.jpg.webp)
+![Alt](./Images/corporate-meeting-with-finance-director.jpg)
 
 This project will mainly focus on players obtaining player cards through the transfer market and how player card prices are determined. Naturally we would believe that the higher the rating the higher the market price. However, there are many situations where this is not the case and the aim of this project is to explore which factors are most important when determing a players market price value and in doing so create a suitable machine learning  model using FIFA 23 Ultimate data to predict player card prices. 
 
