@@ -17,6 +17,42 @@ This project will mainly focus on players obtaining player cards through the tra
 
 # Obtaining the Data and Data Cleaning
 
+## Where did the data come from?
+
+The dataset was downloaded from Kaggle and the creator was Lucas Silva. The data was scraped from the Futbin a famous FIFA Ultimate Team site that contains the database from all Ultimate Team players and features.
+
+
+Below is an overview of all the features included in the dataset and which will be considered when creating the Machine Learning model:
+
+Name = Name of player
+Club = Club that player plays for
+Nation = Players nation
+League = League that club is in
+Rating = Players overall rating 0-99;
+Main_postion = Positon that is on the face of that players card
+Alternate_Positions: the positions that the player can also play
+Card_Version: type of the card - Rare Gold, ICON, Common Gold
+Run_Style: the way player runs - Explosive, Controlled and Lenghty
+Price: the current price of the player on Ultimate Team Market
+Price_Variation: the daily price difference
+Skills_Star: measures how many skills a player can do - varies from 1 to 5
+WeakFoot_Star: measures how well a player execute actions with his weak foot - varies from 1 to 5
+Attack_Workrate: measures how is the intensity of the player attacking - High, Medium and Low
+Defense_Workrate: measures how is the intensity of the player defending - High, Medium and Low
+Pace / Diving: Pace: how fast a player is in game / Diving: how well a goalkeeper jumps to the ball - 0 to 99
+Shooting / Handling: Shooting: how well a player shoots in game / Handling: how well a goalkeeper is with his hands - 0 to 99
+Passing / Kicking: Passing: how well a player pass in game / Kicking: how well a goalkeeper kicks the ball - 0 to 99
+Dribbling / Reflexes: Dribbling: how well a player dribbles in game / Reflexes: how fast a goalkeeper reacts to the ball - 0 to 99
+Defense / Speed: Defense: how well a player defends in game / Speed: how fast a goalkeeper is in game- 0 to 99
+Physical / Positioning: Physical: how strong a player is in game / Positioning: how well a goalkeeper positionates himself in goal - 0 to 99
+Height: in centimeters / in feet
+BodyType: how is the player's body in game
+Popularity: the balance of likes and dislikes in the Futbin
+Base_Stats: the sum of the stats from the front of card
+Ingame_Stats: the sum of all stats from the player
+
+
+
 
 
 
