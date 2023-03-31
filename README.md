@@ -87,7 +87,7 @@ When the player card ratings were plotted against their corresponding price it w
 
 3. Outdated or inaccurate data: The Ultimate Futbin database relies on user-submitted data, and some of this data may be outdated or inaccurate. This could result in missing or incorrect price information for some players.
 
-
+![Alt](./Screenshots/Removal_zero_values.png)
 
 
 
