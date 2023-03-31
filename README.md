@@ -77,6 +77,8 @@ Base_Stats: the sum of the stats from the front of card
 Ingame_Stats: the sum of all stats from the player
 
 
+## Dealing with player cards with a price of '0'
+
 
 
 
