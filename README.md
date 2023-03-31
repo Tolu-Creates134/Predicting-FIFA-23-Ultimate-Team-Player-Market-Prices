@@ -79,6 +79,18 @@ Ingame_Stats: the sum of all stats from the player
 
 ## Dealing with player cards with a price of '0'
 
+When the player card ratings were plotted against their corresponding price it was discovered that there were a large number of player cards with prices of zero. With further investigation it was found that there were 1654 cases were a player card had a price of zero so the decesion was made to drop these players to avoid any biased or misleading results. Here are some potential reasons why some player cards may have a price of zero:
+
+1. Limited availability: Some players may be extremely rare or difficult to obtain for example ICON Ronaldinho , which could make it difficult to establish a market price. If a player is not commonly traded on the transfer market, there may be no recent price data available.
+
+2. Newly released players: Players who have been recently released in a new update or content release may not yet have a market price established. This could be because players have not yet had the opportunity to buy and sell the player on the transfer market.
+
+3. Outdated or inaccurate data: The Ultimate Futbin database relies on user-submitted data, and some of this data may be outdated or inaccurate. This could result in missing or incorrect price information for some players.
+
+
+
+
+
 
 
 
