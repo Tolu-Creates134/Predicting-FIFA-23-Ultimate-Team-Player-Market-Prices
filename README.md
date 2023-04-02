@@ -77,6 +77,14 @@ Base_Stats: the sum of the stats from the front of card
 Ingame_Stats: the sum of all stats from the player
 
 
+## Loading the Data and Importing relevant Libraries
+
+
+
+
+
+
+
 ## Dealing with player cards with a price of '0'
 
 When the player card ratings were plotted against their corresponding price it was discovered that there were a large number of player cards with prices of zero. With further investigation it was found that there were 1654 cases were a player card had a price of zero so the decesion was made to drop these players to avoid any biased or misleading results. Here are some potential reasons why some player cards may have a price of zero:
