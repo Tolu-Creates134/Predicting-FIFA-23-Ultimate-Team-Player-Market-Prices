@@ -79,8 +79,7 @@ Ingame_Stats: the sum of all stats from the player
 
 ## Loading the Data and Importing relevant Libraries
 
-
-
+![Alt](./Screenshots/Importing_data.png)
 
 
 
