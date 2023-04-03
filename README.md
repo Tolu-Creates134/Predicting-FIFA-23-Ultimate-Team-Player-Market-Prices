@@ -104,14 +104,14 @@ Given my prior domain knowledge of the game, I was confident that features like 
 
 Steps:
 
-1. Firstly, I group all the categorical features I wated to include in my linear regression model into one data frame using .select_dtypes(include='object') method.
+1. Firstly, I grouped together all the categorical features I wanted to include in my linear regression model into one data frame using .select_dtypes(include='object') method. These were stored in a variable called 'cat_features'
 
 2. Dummy variables for each of the features were created to represent the categorical data in a numerical form. Also known as One-Hot encoding.
-This was done using the pandas method .get_dummies()
+This was done using the pandas method .get_dummies() and was stored in the variable 'cat_features_encoded'
 
 3. The continuous features from the original data frame, 'player_cards', were grouped together and stored in a sepearte variable 
 
-4. Lastly, I concatenated the continuous features, encoded categorical features along with the names and main position of the players all into one final data set called combined_data_set.
+4. Lastly, I concatenated the continuous features, encoded categorical features along with the names and main position of the players all into one final data set called 'combined_data_set'.
 
 
 
