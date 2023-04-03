@@ -79,8 +79,7 @@ Ingame_Stats: the sum of all stats from the player
 
 ## Loading the Data and Importing relevant Libraries
 
-
-
+![Alt](./Screenshots/Importing_data.png)
 
 
 
@@ -96,6 +95,23 @@ When the player card ratings were plotted against their corresponding price it w
 3. Outdated or inaccurate data: The Ultimate Futbin database relies on user-submitted data, and some of this data may be outdated or inaccurate. This could result in missing or incorrect price information for some players.
 
 ![Alt](./Screenshots/Removal_zero_values.png)
+
+
+
+## Encoding Categorical Data
+
+Given my prior domain knowledge of the game, I was confident that features like player nation and the league of the player card played a role in the market price value of a player card. Howvever, features such as Nation and League played in are categorical variables and are not continuous. In order to include our categorical variables in our linear regression model they needed to be connverted into numeric variables. This was done using One-Hot encoding. The categorical features that were chosen for the model were, Nation, League, Card_Version,	Attack_Workrate and	Defense_Workrate.
+
+Steps:
+
+1. Firstly, I grouped together all the categorical features I wanted to include in my linear regression model into one data frame using .select_dtypes(include='object') method. These were stored in a variable called 'cat_features'
+
+2. Dummy variables for each of the features were created to represent the categorical data in a numerical form. Also known as One-Hot encoding.
+This was done using the pandas method .get_dummies() and was stored in the variable 'cat_features_encoded'
+
+3. The continuous features from the original data frame, 'player_cards', were grouped together and stored in a sepearte variable 
+
+4. Lastly, I concatenated the continuous features, encoded categorical features along with the names and main position of the players all into one final data set called 'combined_data_set'.
 
 
 
