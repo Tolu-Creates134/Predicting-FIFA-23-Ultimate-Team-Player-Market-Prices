@@ -128,7 +128,7 @@ My main assumption was that the market price of a player is likely to be determi
 
 Below is a player count for each position just to visualise the amount of players in the data set:
 
-<img src="./Screenshots/Player_Count_fig.png" alt="My Image" width="700" height="600">
+<img src="./Screenshots/Player_Count_fig.png" alt="My Image" width="725" height="600">
 
 
 Below are the visuals for the top correlated features to a player cards market value price, done for each position:
