@@ -117,8 +117,18 @@ This was done using the pandas method .get_dummies() and was stored in the varia
 
 4. Lastly, I concatenated the continuous features, encoded categorical features along with the names and main position of the players all into one final data set called 'combined_data_set'.
 
+## Scaling of Data
+
+A Robust Scalar was used to standardise the data. RobustScaler is a data normalization technique that is commonly used in machine learning to transform features by scaling them to a common range. It is robust to the presence of outliers in the data, making it a useful preprocessing step when the dataset contains such outliers. Applying the RobustScaler to the data after one-hot encoding can help to normalize the range of the numerical features and improve the performance of machine learning algorithms.
 
 
+# Modelling Workflow
+
+My main assumption was that the market price of a player is likely to be determined by different attributes depending on their position. As a result, the data set was split into three possitions: Attackers, Midfielders, Defenders and Goalkeepers
+
+Below is a player count for each position just to visualise the amount of players in the data set:
+
+<img src="./Screenshots/Player_Count_fig.png" alt="My Image" width="700" height="600">
 
 
 
