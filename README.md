@@ -128,7 +128,7 @@ My main assumption was that the market price of a player is likely to be determi
 
 Below is a player count for each position just to visualise the amount of players in the data set:
 
-![Alt](./Screenshots/Player_Count_fig.png)
+<img src="./Screenshots/Player_Count_fig.png" alt="My Image" width="400" height="300">
 
 
 
