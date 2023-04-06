@@ -135,3 +135,31 @@ Below are the visuals for the top correlated features to a player cards market v
 
 
 
+<img src="./Screenshots/attackers_features.png" alt="My Image" width="725" height="600">
+
+<img src="./Screenshots/midfielders_features.png" alt="My Image" width="725" height="600">
+
+<img src="./Screenshots/defenders_features.png" alt="My Image" width="725" height="600">
+
+<img src="./Screenshots/goalkeepers_features.png" alt="My Image" width="725" height="600">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
