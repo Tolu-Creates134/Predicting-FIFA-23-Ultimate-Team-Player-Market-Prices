@@ -137,7 +137,7 @@ Below are the visuals for the top correlated features to a player cards market v
 
 <img src="./Screenshots/attackers_features.png" alt="My Image" width="725" height="600">
 
-As expected dribbling, shooting ad passing were amongst the highest contributing features to a player cards market value price. 
+As expected dribbling, shooting and passing were amongst the highest contributing features to a player cards market value price. 
 
 <img src="./Screenshots/midfielders_features.png" alt="My Image" width="725" height="600">
 
