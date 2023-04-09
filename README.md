@@ -145,7 +145,7 @@ Below are the visuals for the top correlated features to a player cards market v
 
 
 
-
+It was no surprise that 'card_version_TOTY' was in the top three highest contributing feature to a player cards price for each position. (TOTY) card is a special card that features some of the highest-rated and most popular players in the game. These cards are released once a year in January and are selected based on their real-world performances from the previous calendar year. The TOTY cards are highly sought after by FUT players because they have some of the best stats in the game and are generally considered to be some of the most valuable and rare items in the game. As a result, ay type of TOTY will have a high market value price. 
 
 
 
