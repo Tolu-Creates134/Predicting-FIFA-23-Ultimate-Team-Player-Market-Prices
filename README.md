@@ -151,7 +151,7 @@ For defenders, we could of guessed which features would have been well correlate
 
 What stood out for me with the goalkeepers plot was how highly correlated 'card_version_icon' feature was in relation to a player cards market value price. An ICON is a special type of player card that represents legendary football players from the past. These players are highly sought after by FUT players due to their high ratings, unique skills, and abilities. Its fair to say FUT players would prefer to have ICON player cards in between the sticks for their teams. 
 
-## Summarry 
+# Summarry 
 It was no surprise that 'card_version_TOTY' was in the top three highest contributing feature to a player cards price for each position. (TOTY) card is a special card that features some of the highest-rated and most popular players in the game. These cards are released once a year in January and are selected based on their real-world performances from the previous calendar year. The TOTY cards are highly sought after by FUT players because they have some of the best stats in the game and are generally considered to be some of the most valuable and rare items in the game. As a result, any type of TOTY card will already have a high market value price. Overall, the top correlated features were all relatively low meaning that there is a weak or no linear relationship between these features and the 'Price'. With that said I was still eager to see how well different model could perfrom in predicting player market values prices.
 
 
