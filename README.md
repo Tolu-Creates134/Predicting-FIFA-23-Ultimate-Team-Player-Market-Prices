@@ -141,6 +141,8 @@ As expected dribbling, shooting and passing were amongst the highest contributin
 
 <img src="./Screenshots/midfielders_features.png" alt="My Image" width="725" height="600">
 
+For midfielders, dribbling, passing, shooting and pace were amonsgt the highest contributing features to market value price. This is expected as you would like your midfielders to be very well rounded players. What I mean by this is that you would like them to be comfortable in the attacking third of the field as well as having confidence in them to also create chances as well, which would require good passing attributes. 
+
 <img src="./Screenshots/defenders_features.png" alt="My Image" width="725" height="600">
 
 <img src="./Screenshots/goalkeepers_features.png" alt="My Image" width="725" height="600">
