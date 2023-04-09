@@ -77,14 +77,14 @@ Base_Stats: the sum of the stats from the front of card
 Ingame_Stats: the sum of all stats from the player
 
 
-## Loading the Data and Importing relevant Libraries
+### Loading the Data and Importing relevant Libraries
 
 ![Alt](./Screenshots/Importing_data.png)
 
 
 
 
-## Dealing with player cards with a price of '0'
+### Dealing with player cards with a price of '0'
 
 When the player card ratings were plotted against their corresponding price it was discovered that there were a large number of player cards with prices of zero. With further investigation it was found that there were 1654 cases were a player card had a price of zero so the decesion was made to drop these players to avoid any biased or misleading results. Here are some potential reasons why some player cards may have a price of zero:
 
@@ -98,7 +98,7 @@ When the player card ratings were plotted against their corresponding price it w
 
 
 
-## Encoding Categorical Data
+### Encoding Categorical Data
 
 Given my prior domain knowledge of the game, I was confident that player card features such as player nation and the league of the player card had an impact on the market price value of a player card. Howvever, features such as player Nation and player League are categorical variables and are not continuous. In order to include our categorical variables in our linear regression model they needed to be converted into numeric variables. This is where encoding comes in. The reason why we need to use encoding for categorical variables in linear regression is that the algorithm cannot handle categorical variables in their raw form. Linear regression assumes that the independent variables are continuous and have a linear relationship with the dependent variable. If categorical variables are not encoded properly, the model may treat them as continuous variables, which can lead to incorrect estimates of the coefficients and invalid statistical inference. So to offset this potential issue one-hot encoding was used on the nessecary categorical features.
 
@@ -117,7 +117,7 @@ This was done using the pandas method .get_dummies() and was stored in the varia
 
 4. Lastly, I concatenated the continuous features, encoded categorical features along with the names and main position of the players all into one final data set called 'combined_data_set'.
 
-## Scaling of Data
+### Scaling of Data
 
 A Robust Scalar was used to standardise the data. RobustScaler is a data normalization technique that is commonly used in machine learning to transform features by scaling them to a common range. It is robust to the presence of outliers in the data, making it a useful preprocessing step when the dataset contains such outliers. Applying the RobustScaler to the data after one-hot encoding can help to normalize the range of the numerical features and improve the performance of machine learning algorithms.
 
