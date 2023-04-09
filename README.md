@@ -17,7 +17,7 @@ This project will mainly focus on players obtaining player cards through the tra
 
 # Obtaining the Data and Data Cleaning
 
-## Where did the data come from?
+### Where did the data come from?
 
 The dataset was downloaded from Kaggle and the creator was Lucas Silva. The data was scraped from the Futbin a famous FIFA Ultimate Team site that contains the database from all Ultimate Team players and features.
 
