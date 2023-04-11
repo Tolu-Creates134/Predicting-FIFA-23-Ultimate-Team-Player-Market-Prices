@@ -161,7 +161,7 @@ For this project 4 differet regression models were used to predict a player card
 
 Here are the results for each of the models:
 
-Tolu
+
 
 
 
