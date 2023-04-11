@@ -165,9 +165,7 @@ Here are the results for each of the models:
 
 
 <img src="./Screenshots/Linear_Results.png" alt="My Image" width="725" height="600">
-
 <img src="./Screenshots/Lasso_Results.png" alt="My Image" width="725" height="600">
-
 <img src="./Screenshots/Ridge_Results.png" alt="My Image" width="725" height="600">
 
 
