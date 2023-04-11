@@ -168,7 +168,7 @@ Here are the results for each of the models:
 <img src="./Screenshots/Lasso_Results.png" alt="My Image" width="725" height="600">
 <img src="./Screenshots/Ridge_Results.png" alt="My Image" width="725" height="600">
 
-### Conclusion and Evaluation
+# Conclusion and Evaluation
 
 Linear, Lasso and Ridge regression models each displayed the same general trend in terms of the error value for each position. 'Attack' positions had the greatest mean squared error value for each of the models and this decreased up until the 'Goalkeeper' position. Overall, a high mean squared error (MSE) indicates that the relationship between the features and the target variable may not be well captured by the linear regression model. This could be due to a variety of reasons, such as nonlinearity in the relationship between the features and the target variable, outliers in the data that are skewing the relationship, or missing important features that are related to the target variable. Another reason I believe is because of underfitting. Underfitting occurs when a model is too simple and fails to capture the underlying patterns in the data, leading to poor predictive performance. 
 
