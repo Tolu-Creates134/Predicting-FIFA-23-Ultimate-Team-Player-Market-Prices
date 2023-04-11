@@ -157,14 +157,24 @@ It was no surprise that 'card_version_TOTY' was in the top three highest contrib
 
 ## Model Used
 
-For this project 4 differet regression models were used to predict a player cards market value price, these were: Linear Regression, Lasso Regression, Ridge Regression and Polynomial Regression. All of them had data pre-processed fit using the steps mentioned above. Each of the models were created using the top 12 features for each player card position in relation to market value price. This was done because it would require a lot of time and computational power to create models using each feature in our dataset, also based off my initial domain knowledge of the game I deemed some features in our data as insignificant in determining a player cards market value price. After each of the model had been created and fitted to our training data using default hyperparameters, each of the models performance were evaluated using mean cross_val_scores were calculated with ‘neg_root_mean_squared_error’ as the scoring metric. Ideally, we want an RMSE value as close to 0 as possible. 
+For this project 4 differet regression models were used to predict a player cards market value price, these were: Linear Regression, Lasso Regression, Ridge Regression and Polynomial Regression. All of them had data pre-processed fit using the steps mentioned above. Each of the models were created using the top 12 features for each player card position in relation to market value price. This was done because it would require a lot of time and computational power to create models using each feature in our dataset, also based off my initial domain knowledge of the game I deemed some features in our data as insignificant in determining a player cards market value price. After each of the model had been created and fitted to our training data using default hyperparameters, each of the models performance were evaluated using mean cross_val_scores with ‘neg_root_mean_squared_error’ as the scoring metric. Ideally, we want an RMSE value as close to 0 as possible. 
 
 Here are the results for each of the models:
 
-Tolu
 
 
 
+<img src="./Screenshots/Linear_Results.png" alt="My Image" width="725" height="600">
+<img src="./Screenshots/Lasso_Results.png" alt="My Image" width="725" height="600">
+<img src="./Screenshots/Ridge_Results.png" alt="My Image" width="725" height="600">
+
+# Conclusion and Evaluation
+
+Linear, Lasso and Ridge regression models each displayed the same general trend in terms of the error value for each position. 'Attack' positions had the greatest mean squared error value for each of the models and this decreased up until the 'Goalkeeper' position. Overall, a high mean squared error (MSE) indicates that the relationship between the features and the target variable may not be well captured by the linear regression model. This could be due to a variety of reasons, such as nonlinearity in the relationship between the features and the target variable, outliers in the data that are skewing the relationship, or missing important features that are related to the target variable. Another reason I believe is because of underfitting. Underfitting occurs when a model is too simple and fails to capture the underlying patterns in the data, leading to poor predictive performance. 
+
+To improve my price predictions I could try using non-linear regressions models that may be better suited for capturing complex relationships between the features and the target variable.
+
+Thank for reading and I will be looking to create a upgraded version of this model that can more accurately predict player card market value prices in the near future. 
 
 
 
