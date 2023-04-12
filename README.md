@@ -19,7 +19,7 @@ This project will mainly focus on players obtaining player cards through the tra
 
 ### Where did the data come from?
 
-The dataset was downloaded from Kaggle and the creator was Lucas Silva. The data was scraped from the Futbin a famous FIFA Ultimate Team site that contains the database from all Ultimate Team players and features.
+The dataset was downloaded from Kaggle and the creator was Lucas Silva. The data was scraped from the Futbin website, a famous FIFA Ultimate Team site that contains the database all all Ultimate Team players and features.
 
 
 Below is an overview of all the features included in the dataset and which will be considered when creating the Machine Learning model:
@@ -170,15 +170,16 @@ Here are the results for each of the models:
 
 # Conclusion and Evaluation
 
-<img src="./Screenshots/Conclusion_image_stadium.jpeg" alt="My Image" width="800" height="600">
+<img src="./Screenshots/Conclusion_image_fulltime.jpeg" alt="My Image" width="800" height="400">
 
 
 Linear, Lasso and Ridge regression models each displayed the same general trend in terms of the error value for each position. 'Attack' positions had the greatest mean squared error value for each of the models and this decreased up until the 'Goalkeeper' position. Overall, a high mean squared error (MSE) indicates that the relationship between the features and the target variable may not be well captured by the linear regression model. This could be due to a variety of reasons, such as nonlinearity in the relationship between the features and the target variable, outliers in the data that are skewing the relationship, or missing important features that are related to the target variable. Another reason I believe is because of underfitting. Underfitting occurs when a model is too simple and fails to capture the underlying patterns in the data, leading to poor predictive performance. 
 
-To improve my price predictions I could try using non-linear regressions models that may be better suited for capturing complex relationships between the features and the target variable.
+To improve my price predictions I could try using non-linear regressions models that may be better suited for capturing complex relationships between the features and the target variable or by using a GridSearch to find out the best hyperparaeters for our existing models. 
 
-Thank for reading and I will be looking to create a upgraded version of this model that can more accurately predict player card market value prices in the near future. 
+Its still early days in my Data Science journey but I am happy with the progress I am making and although I did not get result I was looking for with this project I at least know where I could improve and how I will go about it in future projects. 
 
+Thank you for taking the time to read my project. 
 
 
 
