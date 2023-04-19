@@ -1,4 +1,4 @@
-# Predicting-FIFA-23-Ultimate-Team-Player-Market-Prices
+# Predicting FIFA 23 Ultimate Team Player Market Prices
 
 ![FUT PICTURE](./Images/FUT-23-Event-Promo-Release.png)
 
